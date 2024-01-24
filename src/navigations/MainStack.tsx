@@ -14,7 +14,7 @@ const MainStack = () => {
       <NavigationContainer>
         <Stack.Navigator
           initialRouteName="Auth"
-          screenOptions={{headerShown: false}}>
+          screenOptions={{headerShown: false, animation: 'slide_from_right',}}>
           <Stack.Screen name="Auth" component={AuthStack} />
           <Stack.Screen name="Tabs" component={BottomTabs} />
          
